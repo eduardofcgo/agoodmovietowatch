@@ -43,7 +43,7 @@ const removeRepeated = movies => {
 }
 
 const write = async filePath => {
-  fs.mkdirSync(path.dirname(filePath), {recursive: true})
+  fs.mkdirSync(path.dirname(filePath), { recursive: true })
   assert(!fs.existsSync(filePath))
 
   const movies = removeRepeated(await download())
