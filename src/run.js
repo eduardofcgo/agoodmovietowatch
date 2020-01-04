@@ -41,6 +41,8 @@ const write = async filePath => {
   const unrecognizableMovies = movies.length - matchedStevenLu.length
 
   console.log("Unrecognized", unrecognizableMovies, "movies out of", movies.length)
+
+  assert(unrecognizableMovies / movies.length < 0.5)
 }
 
 const args = process.argv.slice(2)
