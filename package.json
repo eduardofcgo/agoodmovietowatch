@@ -1,0 +1,10 @@
+{
+  "name": "agoodmovietowatch",
+  "main": "index.js",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "imdb-api": "^4.0.3",
+    "request": "^2.85.0",
+    "request-promise": "^4.2.2"
+  }
+}
