@@ -1,6 +1,6 @@
 const imdb = require("imdb-api")
 
-const client = function(key) {
+const client = key => {
   return new imdb.Client({ apiKey: key })
 }
 
