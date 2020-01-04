@@ -2,7 +2,7 @@ const os = require("os")
 const fs = require("fs")
 const assert = require("assert")
 
-const agoodmovietowatch = require("./agoodmovietowatch");
+const agoodmovietowatch = require("./agoodmovietowatch")
 const feed = require("./feed")
 
 const url = {
@@ -11,18 +11,16 @@ const url = {
 }
 
 const getTotalPages = async () => ({
-    best: await agoodmovietowatch.countPages(url.best(1)),
-    latest: await agoodmovietowatch.countPages(url.latest(1))
+  best: await agoodmovietowatch.countPages(url.best(1)),
+  latest: await agoodmovietowatch.countPages(url.latest(1))
 })
 
 const download = async () => {
   const totalPages = await getTotalPages()
 
   const urls = []
-  for (let page = 1; page <= totalPages.best; page++)
-    urls.push(url.best(page))
-  for (let page = 1; page <= totalPages.latest; page++)
-    urls.push(url.latest(page))
+  for (let page = 1; page <= totalPages.best; page++) urls.push(url.best(page))
+  for (let page = 1; page <= totalPages.latest; page++) urls.push(url.latest(page))
 
   const moviesPages = await Promise.all(urls.map(agoodmovietowatch.scrape))
 
@@ -46,12 +44,9 @@ const write = async filePath => {
 }
 
 const args = process.argv.slice(2)
-assert(args.length == 2) 
+assert(args.length == 2)
 
 const filePath = args[0]
 const key = args[1]
 
 write(filePath)
-
-//const key = "ce6b04bc"
-

@@ -1,10 +1,11 @@
-const request = require("request-promise");
-const cheerio = require("cheerio");
+const request = require("request-promise")
+const cheerio = require("cheerio")
 
-const get = url => request({
-  uri: url,
-  transform: cheerio.load
-})
+const get = url =>
+  request({
+    uri: url,
+    transform: cheerio.load
+  })
 
 const countPages = async movieListUrl => {
   const $ = await get(movieListUrl)
@@ -33,11 +34,10 @@ const scrape = async movieListUrl => {
     return title
   })
 
-  return $titles
-            .toArray()
-            .filter(t => t !== 'Subscriber-Only Suggestion')
-};
+  return $titles.toArray().filter(t => t !== "Subscriber-Only Suggestion")
+}
 
 module.exports = {
-  countPages, scrape
+  countPages,
+  scrape
 }
