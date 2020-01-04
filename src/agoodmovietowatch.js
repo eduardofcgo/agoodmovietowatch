@@ -18,23 +18,18 @@ const countPages = async movieListUrl => {
 const scrape = async movieListUrl => {
   const $ = await get(movieListUrl)
 
-  const $titles = $("article.post").map(function() {
-    const $this = $(this)
+  const movies = $(".content-title-single")
+    .toArray()
+    .map(e => {
+      const url = e.attribs.href
 
-    const title =
-      $this
-        .find(".content-title")
-        .text()
-        .trim() ||
-      $this
-        .find(".entry-title")
-        .text()
-        .trim()
+      return {
+        name: e.attribs.title,
+        year: url.slice(url.length - 5, url.length - 1)
+      }
+    })
 
-    return title
-  })
-
-  return $titles.toArray().filter(t => t !== "Subscriber-Only Suggestion")
+  return movies
 }
 
 module.exports = {

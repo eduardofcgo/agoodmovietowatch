@@ -1,6 +1,13 @@
 {
   "name": "agoodmovietowatch",
-  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eduardofcbg/agoodmovietowatch"
+  },
+  "main": "run.js",
+  "scripts": {
+  	"start": "node src/run.js"
+  },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "imdb-api": "^4.0.3",

@@ -27,10 +27,24 @@ const download = async () => {
   return moviesPages.flat()
 }
 
+const removeRepeated = movies => {
+  const movieYears = {}
+
+  movies.forEach(({ name, year }) => {
+    if (!movieYears[name]) movieYears[name] = new Set([year])
+
+    movieYears[name].add(year)
+  })
+
+  return Object.keys(movieYears)
+    .map(name => Array.from(movieYears[name]).map(year => ({ name, year })))
+    .flat()
+}
+
 const write = async filePath => {
   assert(!fs.existsSync(filePath))
 
-  const movies = Array.from(new Set(await download()))
+  const movies = removeRepeated(await download())
   const stevenLu = movies.map(m => feed.stevenLu(key, m))
   const matchedStevenLu = (await Promise.all(stevenLu)).filter(m => m !== undefined)
 
@@ -44,9 +58,10 @@ const write = async filePath => {
 }
 
 const args = process.argv.slice(2)
-assert(args.length == 2)
+assert(args.length == 1)
 
 const filePath = args[0]
-const key = args[1]
+const key = process.env.OMDB_API
+assert(key)
 
 write(filePath)

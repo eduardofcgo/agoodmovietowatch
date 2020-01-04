@@ -1,18 +1,19 @@
 const imdb = require("imdb-api")
 
-memoClient = function(key) {
+const memoClient = function(key) {
   if (!this.client) this.client = {}
   if (!this.client[key]) this.client[key] = new imdb.Client({ apiKey: key })
 
   return this.client[key]
 }
 
-stevenLu = async (key, movie) => {
-  const [name, year] = movie.split(", ")
+const stevenLu = async (key, movie) => {
+  const { name, year } = movie
   const englishName = name.replace(/ *\([^)]*\) */g, "")
 
+  let params
   try {
-    const params = { name: englishName, type: "movie", year }
+    params = { name: englishName, type: "movie", year }
     const imdbMovie = await memoClient(key).get(params)
 
     return {
@@ -21,7 +22,7 @@ stevenLu = async (key, movie) => {
       poster_url: null
     }
   } catch (e) {
-    console.error(e)
+    console.error(e, movie, params)
 
     return undefined
   }
