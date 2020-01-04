@@ -1,10 +1,7 @@
 const imdb = require("imdb-api")
 
-const memoClient = function(key) {
-  if (!this.client) this.client = {}
-  if (!this.client[key]) this.client[key] = new imdb.Client({ apiKey: key })
-
-  return this.client[key]
+const client = function(key) {
+  return new imdb.Client({ apiKey: key })
 }
 
 const stevenLu = async (key, movie) => {
@@ -14,7 +11,7 @@ const stevenLu = async (key, movie) => {
   let params
   try {
     params = { name: englishName, type: "movie", year }
-    const imdbMovie = await memoClient(key).get(params)
+    const imdbMovie = await client(key).get(params)
 
     return {
       title: imdbMovie.title,
