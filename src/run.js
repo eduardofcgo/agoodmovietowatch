@@ -20,19 +20,19 @@ const download = async () => {
   const totalPages = await getTotalPages()
 
   const urls = []
-  for (let page = 1; page <= totalPages.best; page++) urls.push(url.best(page))
   for (let page = 1; page <= totalPages.latest; page++) urls.push(url.latest(page))
+  for (let page = 1; page <= totalPages.best; page++) urls.push(url.best(page))
 
   const moviesPages = await Promise.all(urls.map(agoodmovietowatch.scrape))
 
   return moviesPages.flat()
 }
 
-const removeRepeated = movies => {
+const deduplicate = movies => {
   const movieYears = {}
 
   movies.forEach(({ name, year }) => {
-    if (!movieYears[name]) movieYears[name] = new Set([year])
+    if (!movieYears[name]) movieYears[name] = new Set()
 
     movieYears[name].add(year)
   })
@@ -42,21 +42,28 @@ const removeRepeated = movies => {
     .flat()
 }
 
-const write = async filePath => {
-  fs.mkdirSync(path.dirname(filePath), { recursive: true })
-  assert(!fs.existsSync(filePath))
+const write = async folder => {
+  fs.mkdirSync(folder, { recursive: true })
 
-  const movies = removeRepeated(await download())
+  const path = path.join(folder, 'stevenlu.json')
+  const pathLatest = path.join(folder, 'stevenlu-latest.json')
+
+  assert(!fs.existsSync(path) && !fs.existsSync(pathLatest))
+
+  const movies = deduplicate(await download())
   const stevenLu = movies.map(m => feed.stevenLu(key, m))
   const matchedStevenLu = (await Promise.all(stevenLu)).filter(m => m !== undefined)
-
-  fs.writeFileSync(filePath, JSON.stringify(matchedStevenLu, null, 2))
 
   const unrecognizableMovies = movies.length - matchedStevenLu.length
 
   console.log("Unrecognized", unrecognizableMovies, "movies out of", movies.length)
 
   assert(unrecognizableMovies / movies.length < 0.5)
+
+  const latestStevenLu = matchedStevenLu.slice(0, 12)
+
+  fs.writeFileSync(path, JSON.stringify(matchedStevenLu, null, 2))
+  fs.writeFileSync(pathLatest, JSON.stringify(latestStevenLu, null, 2))
 }
 
 const args = process.argv.slice(2)

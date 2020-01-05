@@ -17,7 +17,7 @@ jobs:
       run: npm install
     
     - name: Generate website
-      run: npm start feed/stevenlu.json
+      run: npm start feed
       env:
         OMDB_API: ${{ secrets.OMDB_API }}
     
