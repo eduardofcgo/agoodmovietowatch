@@ -1,4 +1,4 @@
-Feed from agoodmovietowatch.com, always updated with the new submissions from the site.
+Feed from agoodmovietowatch.com, always updated with the new submissions on the site.
 
 Data is in the same format as [Stevenlu's](https://github.com/sjlu/popular-movies) list, simply use the following urls instead.
 
