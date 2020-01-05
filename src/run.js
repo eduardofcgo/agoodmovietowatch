@@ -45,8 +45,8 @@ const deduplicate = movies => {
 const write = async folder => {
   fs.mkdirSync(folder, { recursive: true })
 
-  const path = path.join(folder, 'stevenlu.json')
-  const pathLatest = path.join(folder, 'stevenlu-latest.json')
+  const path = path.join(folder, "stevenlu.json")
+  const pathLatest = path.join(folder, "stevenlu-latest.json")
 
   assert(!fs.existsSync(path) && !fs.existsSync(pathLatest))
 

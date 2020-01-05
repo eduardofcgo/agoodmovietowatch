@@ -8,7 +8,7 @@ const stevenLu = async (key, movie) => {
   const { name, year } = movie
   const englishName = name.replace(/ *\([^)]*\) */g, "")
   const params = { name: englishName, type: "movie", year }
-  
+
   try {
     const imdbMovie = await client(key).get(params)
 
