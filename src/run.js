@@ -45,10 +45,10 @@ const deduplicate = movies => {
 const write = async folder => {
   fs.mkdirSync(folder, { recursive: true })
 
-  const path = path.join(folder, "stevenlu.json")
+  const pathAll = path.join(folder, "stevenlu.json")
   const pathLatest = path.join(folder, "stevenlu-latest.json")
 
-  assert(!fs.existsSync(path) && !fs.existsSync(pathLatest))
+  assert(!fs.existsSync(pathAll) && !fs.existsSync(pathLatest))
 
   const movies = deduplicate(await download())
   const stevenLu = movies.map(m => feed.stevenLu(key, m))
@@ -62,7 +62,7 @@ const write = async folder => {
 
   const latestStevenLu = matchedStevenLu.slice(0, 12)
 
-  fs.writeFileSync(path, JSON.stringify(matchedStevenLu, null, 2))
+  fs.writeFileSync(pathAll, JSON.stringify(matchedStevenLu, null, 2))
   fs.writeFileSync(pathLatest, JSON.stringify(latestStevenLu, null, 2))
 }
 
