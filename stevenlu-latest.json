@@ -5,6 +5,11 @@
     "poster_url": null
   },
   {
+    "title": "A Hidden Life",
+    "imdb_id": "tt5827916",
+    "poster_url": null
+  },
+  {
     "title": "Uncut Gems",
     "imdb_id": "tt5727208",
     "poster_url": null
@@ -52,11 +57,6 @@
   {
     "title": "Hearts Beat Loud",
     "imdb_id": "tt7158430",
-    "poster_url": null
-  },
-  {
-    "title": "The Hate U Give",
-    "imdb_id": "tt5580266",
     "poster_url": null
   }
 ]
