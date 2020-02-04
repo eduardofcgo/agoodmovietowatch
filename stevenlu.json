@@ -5,6 +5,11 @@
     "poster_url": null
   },
   {
+    "title": "Queen of Hearts",
+    "imdb_id": "tt8378126",
+    "poster_url": null
+  },
+  {
     "title": "Tel Aviv on Fire",
     "imdb_id": "tt5791098",
     "poster_url": null
@@ -92,11 +97,6 @@
   {
     "title": "The Hate U Give",
     "imdb_id": "tt5580266",
-    "poster_url": null
-  },
-  {
-    "title": "Stan & Ollie",
-    "imdb_id": "tt3385524",
     "poster_url": null
   },
   {
@@ -612,11 +612,6 @@
   {
     "title": "BPM",
     "imdb_id": "tt9418952",
-    "poster_url": null
-  },
-  {
-    "title": "Jim & Andy: The Great Beyond",
-    "imdb_id": "tt7214762",
     "poster_url": null
   },
   {
