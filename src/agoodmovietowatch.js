@@ -4,15 +4,16 @@ const cheerio = require("cheerio")
 const get = url =>
   request({
     uri: url,
-    transform: cheerio.load
+    transform: cheerio.load,
+    timeout: 10000,
   })
 
 const countPages = async movieListUrl => {
   const $ = await get(movieListUrl)
 
-  const $pageNumbers = $(".page-numbers").contents()
+  const $pageNumbers = $(".page-numbers").not(".next").last()
 
-  return Number($pageNumbers.last().text())
+  return Number($pageNumbers.text())
 }
 
 const scrape = async movieListUrl => {

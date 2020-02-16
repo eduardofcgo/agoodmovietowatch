@@ -18,9 +18,12 @@ const stevenLu = async (key, movie) => {
       poster_url: null
     }
   } catch (e) {
-    console.error(e, movie, params)
-
-    return undefined
+    // api only provides this error...
+    if (e instanceof imdb.ImdbError) {
+      console.log(e)
+      return undefined
+    }
+    else throw e
   }
 }
 
