@@ -575,11 +575,6 @@
     "poster_url": null
   },
   {
-    "title": "Brick",
-    "imdb_id": "tt0393109",
-    "poster_url": null
-  },
-  {
     "title": "Moon",
     "imdb_id": "tt1182345",
     "poster_url": null
@@ -712,11 +707,6 @@
   {
     "title": "Sorry to Bother You",
     "imdb_id": "tt5688932",
-    "poster_url": null
-  },
-  {
-    "title": "Lady Bird",
-    "imdb_id": "tt4925292",
     "poster_url": null
   },
   {
@@ -1592,6 +1582,11 @@
   {
     "title": "The One I Love",
     "imdb_id": "tt2756032",
+    "poster_url": null
+  },
+  {
+    "title": "Miss Sloane",
+    "imdb_id": "tt4540710",
     "poster_url": null
   },
   {
