@@ -1385,6 +1385,11 @@
     "poster_url": null
   },
   {
+    "title": "Entre nos",
+    "imdb_id": "tt1212456",
+    "poster_url": null
+  },
+  {
     "title": "Bull",
     "imdb_id": "tt10008784",
     "poster_url": null
@@ -2027,6 +2032,11 @@
   {
     "title": "Enter the Void",
     "imdb_id": "tt1191111",
+    "poster_url": null
+  },
+  {
+    "title": "The Collini Case",
+    "imdb_id": "tt8739752",
     "poster_url": null
   }
 ]
