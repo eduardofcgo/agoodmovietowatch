@@ -22,8 +22,7 @@ const stevenLu = async (key, movie) => {
     if (e instanceof imdb.ImdbError) {
       console.log(e)
       return undefined
-    }
-    else throw e
+    } else throw e
   }
 }
 

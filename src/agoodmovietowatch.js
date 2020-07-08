@@ -5,13 +5,15 @@ const get = url =>
   request({
     uri: url,
     transform: cheerio.load,
-    timeout: 10000,
+    timeout: 10000
   })
 
 const countPages = async movieListUrl => {
   const $ = await get(movieListUrl)
 
-  const $pageNumbers = $(".page-numbers").not(".next").last()
+  const $pageNumbers = $(".page-numbers")
+    .not(".next")
+    .last()
 
   return Number($pageNumbers.text())
 }

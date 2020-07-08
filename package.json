@@ -6,12 +6,13 @@
   },
   "main": "run.js",
   "scripts": {
-  	"start": "node src/run.js"
+    "start": "node src/run.js"
   },
   "dependencies": {
     "cheerio": "^1.0.0-rc.2",
     "imdb-api": "^4.0.3",
     "request": "^2.85.0",
-    "request-promise": "^4.2.2"
+    "request-promise": "^4.2.2",
+    "tiny-async-pool": "^1.1.0"
   }
 }

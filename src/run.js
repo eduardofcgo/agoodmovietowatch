@@ -3,6 +3,8 @@ const fs = require("fs")
 const path = require("path")
 const assert = require("assert")
 
+const asyncPool = require("tiny-async-pool")
+
 const agoodmovietowatch = require("./agoodmovietowatch")
 const feed = require("./feed")
 
@@ -16,7 +18,8 @@ const download = async () => {
   const urls = []
   for (let page = 1; page <= totalPages; page++) urls.push(pageUrl(page))
 
-  const moviesPages = await Promise.all(urls.map(agoodmovietowatch.scrape))
+  const concurrency = 5
+  const moviesPages = await asyncPool(concurrency, urls, agoodmovietowatch.scrape)
 
   return moviesPages.flat()
 }
@@ -43,7 +46,7 @@ assert(key)
 
 const writeFeed = movies => {
   fs.mkdirSync(filePath, { recursive: true })
-  
+
   const pathAll = path.join(filePath, "stevenlu.json")
   const pathLatest = path.join(filePath, "stevenlu-latest.json")
 
