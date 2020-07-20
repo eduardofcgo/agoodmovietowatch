@@ -45,16 +45,6 @@
     "poster_url": null
   },
   {
-    "title": "The Perks of Being a Wallflower",
-    "imdb_id": "tt1659337",
-    "poster_url": null
-  },
-  {
-    "title": "End of Watch",
-    "imdb_id": "tt1855199",
-    "poster_url": null
-  },
-  {
     "title": "The End of the Tour",
     "imdb_id": "tt3416744",
     "poster_url": null
@@ -1137,6 +1127,11 @@
   {
     "title": "Toni Erdmann",
     "imdb_id": "tt4048272",
+    "poster_url": null
+  },
+  {
+    "title": "Chungking Express",
+    "imdb_id": "tt0109424",
     "poster_url": null
   },
   {
