@@ -175,11 +175,6 @@
     "poster_url": null
   },
   {
-    "title": "A Bronx Tale",
-    "imdb_id": "tt0106489",
-    "poster_url": null
-  },
-  {
     "title": "Blue Jay",
     "imdb_id": "tt5912454",
     "poster_url": null
@@ -822,6 +817,11 @@
   {
     "title": "Hard Candy",
     "imdb_id": "tt0424136",
+    "poster_url": null
+  },
+  {
+    "title": "The Social Dilemma",
+    "imdb_id": "tt11464826",
     "poster_url": null
   },
   {
@@ -1472,11 +1472,6 @@
   {
     "title": "The Babadook",
     "imdb_id": "tt2321549",
-    "poster_url": null
-  },
-  {
-    "title": "I'm Thinking of Ending Things",
-    "imdb_id": "tt7939766",
     "poster_url": null
   },
   {
