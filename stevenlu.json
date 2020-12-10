@@ -95,11 +95,6 @@
     "poster_url": null
   },
   {
-    "title": "The Lives of Others",
-    "imdb_id": "tt0405094",
-    "poster_url": null
-  },
-  {
     "title": "After the Wedding",
     "imdb_id": "tt0457655",
     "poster_url": null
@@ -537,6 +532,11 @@
   {
     "title": "Moon",
     "imdb_id": "tt1182345",
+    "poster_url": null
+  },
+  {
+    "title": "The Double Life of Véronique",
+    "imdb_id": "tt0101765",
     "poster_url": null
   },
   {
