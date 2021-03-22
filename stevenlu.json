@@ -565,11 +565,6 @@
     "poster_url": null
   },
   {
-    "title": "The Boy in the Striped Pajamas",
-    "imdb_id": "tt0914798",
-    "poster_url": null
-  },
-  {
     "title": "Stranger Than Fiction",
     "imdb_id": "tt0420223",
     "poster_url": null
@@ -1327,6 +1322,11 @@
   {
     "title": "What Happened, Miss Simone?",
     "imdb_id": "tt4284010",
+    "poster_url": null
+  },
+  {
+    "title": "Phoenix",
+    "imdb_id": "tt2268521",
     "poster_url": null
   },
   {
