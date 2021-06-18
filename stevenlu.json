@@ -835,7 +835,7 @@
     "poster_url": null
   },
   {
-    "title": "La haine",
+    "title": "La Haine",
     "imdb_id": "tt0113247",
     "poster_url": null
   },
@@ -1895,6 +1895,11 @@
     "poster_url": null
   },
   {
+    "title": "A Royal Affair",
+    "imdb_id": "tt1276419",
+    "poster_url": null
+  },
+  {
     "title": "C.R.A.Z.Y.",
     "imdb_id": "tt0401085",
     "poster_url": null
@@ -2007,11 +2012,6 @@
   {
     "title": "American Honey",
     "imdb_id": "tt3721936",
-    "poster_url": null
-  },
-  {
-    "title": "The African Doctor",
-    "imdb_id": "tt5555502",
     "poster_url": null
   },
   {
@@ -2250,8 +2250,8 @@
     "poster_url": null
   },
   {
-    "title": "The Platform Master",
-    "imdb_id": "tt2382011",
+    "title": "The Platform",
+    "imdb_id": "tt8228288",
     "poster_url": null
   },
   {
@@ -2552,11 +2552,6 @@
   {
     "title": "Grizzly Man",
     "imdb_id": "tt0427312",
-    "poster_url": null
-  },
-  {
-    "title": "Miracle in Cell No. 7",
-    "imdb_id": "tt2659414",
     "poster_url": null
   },
   {
