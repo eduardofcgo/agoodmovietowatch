@@ -925,6 +925,11 @@
     "poster_url": null
   },
   {
+    "title": "Open Hearts",
+    "imdb_id": "tt0315543",
+    "poster_url": null
+  },
+  {
     "title": "Motherland",
     "imdb_id": "tt6333078",
     "poster_url": null
@@ -952,11 +957,6 @@
   {
     "title": "Songs My Brothers Taught Me",
     "imdb_id": "tt3566788",
-    "poster_url": null
-  },
-  {
-    "title": "Kaili Blues",
-    "imdb_id": "tt4613272",
     "poster_url": null
   },
   {
@@ -1065,7 +1065,7 @@
     "poster_url": null
   },
   {
-    "title": "The Meyerowitz Stories (New and Selected)",
+    "title": "The Meyerowitz Stories",
     "imdb_id": "tt5536736",
     "poster_url": null
   },
@@ -1382,6 +1382,11 @@
   {
     "title": "Tape",
     "imdb_id": "tt0275719",
+    "poster_url": null
+  },
+  {
+    "title": "The Painter and the Thief",
+    "imdb_id": "tt11296058",
     "poster_url": null
   },
   {
@@ -1706,7 +1711,7 @@
   },
   {
     "title": "Tomorrow",
-    "imdb_id": "tt2831326",
+    "imdb_id": "tt4449576",
     "poster_url": null
   },
   {
@@ -2130,7 +2135,7 @@
     "poster_url": null
   },
   {
-    "title": "Force Majeure",
+    "title": "Turist",
     "imdb_id": "tt2121382",
     "poster_url": null
   },
