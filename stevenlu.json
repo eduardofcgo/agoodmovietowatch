@@ -385,11 +385,6 @@
     "poster_url": null
   },
   {
-    "title": "The Celebration",
-    "imdb_id": "tt0154420",
-    "poster_url": null
-  },
-  {
     "title": "The Triplets of Belleville",
     "imdb_id": "tt0286244",
     "poster_url": null
@@ -722,6 +717,11 @@
   {
     "title": "Perfect Blue",
     "imdb_id": "tt0156887",
+    "poster_url": null
+  },
+  {
+    "title": "Fifi Howls from Happiness",
+    "imdb_id": "tt2731398",
     "poster_url": null
   },
   {
@@ -2315,8 +2315,8 @@
     "poster_url": null
   },
   {
-    "title": "Just a Kid from Arkansas",
-    "imdb_id": "tt5561762",
+    "title": "Le fils de Jean",
+    "imdb_id": "tt4741708",
     "poster_url": null
   },
   {
