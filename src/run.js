@@ -3,6 +3,8 @@ const fs = require("fs")
 const path = require("path")
 const assert = require("assert")
 
+require("array-flat-polyfill")
+
 const asyncPool = require("tiny-async-pool")
 
 const agoodmovietowatch = require("./agoodmovietowatch")
