@@ -21,16 +21,19 @@ const countPages = async movieListUrl => {
 const scrape = async movieListUrl => {
   const $ = await get(movieListUrl)
 
-  const movies = $(".content-title-single")
-    .toArray()
-    .map(e => {
-      const url = e.attribs.href
+  const movies = []
 
-      return {
-        name: e.attribs.title,
-        year: url.slice(url.length - 5, url.length - 1)
-      }
+  $(".content-title > a").each(function(i, e) {
+    
+    const url = $(e).attr("href")
+    const year = url.slice(url.length - 5, url.length - 1)
+
+    const title = $("span", e).text()
+
+    movies.push({
+      name: title, year
     })
+  })
 
   return movies
 }
