@@ -162,3 +162,5 @@ cython_debug/
 publish
 agoodmovietowatch.json
 agoodmovietowatch.db
+stevenlu.json
+stevenlu-latest.json

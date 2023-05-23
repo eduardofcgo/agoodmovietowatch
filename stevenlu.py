@@ -2,7 +2,6 @@ import sqlite3
 from datetime import datetime
 import json
 import re
-import os
 
 
 conn = sqlite3.connect("agoodmovietowatch.db")
@@ -39,15 +38,14 @@ for title, imdb_url in movies:
 
     stevenlu_movies.append(stevenlu_movie)
 
-os.makedirs("publish")
 
-with open("publish/stevenlu.json", "w") as stevenlu:
+with open("stevenlu.json", "w") as stevenlu:
     stevenlu_json = json.dumps(stevenlu_movies, indent=4)
 
     stevenlu.write(stevenlu_json)
 
 
-with open("publish/stevenlu-latest.json", "w") as stevenlu_latest:
+with open("stevenlu-latest.json", "w") as stevenlu_latest:
     stevenlu_movies_latest = stevenlu_movies[:10]
     stevenlu_json = json.dumps(stevenlu_movies_latest, indent=4)
 
