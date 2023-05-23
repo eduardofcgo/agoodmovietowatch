@@ -2,3 +2,4 @@ Always updated with new submissions on [agoodmovietowatch](https://agoodmovietow
 
  - https://eduardofcgo.github.io/agoodmovietowatch/stevenlu.json
  - https://eduardofcgo.github.io/agoodmovietowatch/stevenlu-latest.json
+ - https://eduardofcgo.github.io/agoodmovietowatch/agoodmovietowatch.sqlite
