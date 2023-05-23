@@ -21,7 +21,7 @@ jobs:
       run: pip install -r requirements.txt 
     
     - name: AGoodMovieToWatch
-      run: python agoodmovietowatch.py && python database.py && python stevenlu.py
+      run: python download.py && python database.py && python stevenlu.py
     
     - name: Publish
       uses: peaceiris/actions-gh-pages@v2
