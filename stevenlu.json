@@ -1,5 +1,15 @@
 [
     {
+        "title": "The Plot Against America",
+        "imdb_id": "tt9308346",
+        "poster_url": null
+    },
+    {
+        "title": "Blue Jean",
+        "imdb_id": "tt8649344",
+        "poster_url": null
+    },
+    {
         "title": "The Best Exotic Marigold Hotel",
         "imdb_id": "tt1412386",
         "poster_url": null
@@ -125,7 +135,7 @@
         "poster_url": null
     },
     {
-        "title": "The Night Is Short, Walk on Girl",
+        "title": "Night Is Short, Walk On Girl",
         "imdb_id": "tt6335734",
         "poster_url": null
     },
