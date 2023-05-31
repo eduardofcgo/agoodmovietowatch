@@ -41,9 +41,12 @@ with open("agoodmovietowatch.json") as movies_file:
     for movie in movies["data"]:
         meta = movie["meta"]
         imdb = meta.get("imdb")
+        wikilink = meta.get("wikilink")
 
         if imdb and not imdb.startswith("http"):
             imdb = None
+        if wikilink and not wikilink.startswith("http"):
+            wikilink = None
 
         creation_date = datetime.fromtimestamp(movie["creationDate"] / 1000).date()
 
@@ -59,7 +62,7 @@ with open("agoodmovietowatch.json") as movies_file:
             "short_summary": movie.get("shortSummary"),
             "is_very_best": movie["isVeryBest"],
             "is_premium": movie["isPremium"],
-            "wikilink": meta.get("wikilink"),
+            "wikilink": wikilink,
             "imdb": imdb,
             "runtime": meta.get("runtime"),
         }
