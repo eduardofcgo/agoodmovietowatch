@@ -21,6 +21,7 @@ headers = {
 params = {
     "page": "1",
     "limit": "10000",
+    "content_type": "movie"
 }
 
 movies_response = requests.get(
