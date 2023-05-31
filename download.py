@@ -18,11 +18,7 @@ headers = {
     "Sec-GPC": "1",
 }
 
-params = {
-    "page": "1",
-    "limit": "10000",
-    "content_type": "movie"
-}
+params = {"page": "1", "limit": "10000", "content_type": "movie"}
 
 movies_response = requests.get(
     "https://agoodmovietowatch.com/api/content", params=params, headers=headers
