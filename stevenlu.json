@@ -1,5 +1,25 @@
 [
     {
+        "title": "Stan Lee",
+        "imdb_id": "tt25363184",
+        "poster_url": null
+    },
+    {
+        "title": "The Village",
+        "imdb_id": "tt27506951",
+        "poster_url": null
+    },
+    {
+        "title": "American Pain",
+        "imdb_id": "tt19781504",
+        "poster_url": null
+    },
+    {
+        "title": "John Early: Now More Than Ever",
+        "imdb_id": "tt11459818",
+        "poster_url": null
+    },
+    {
         "title": "Fear the Invisible Man",
         "imdb_id": "tt6924832",
         "poster_url": null
