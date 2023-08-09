@@ -1,5 +1,10 @@
 [
     {
+        "title": "Far From Heaven",
+        "imdb_id": "tt0297884",
+        "poster_url": null
+    },
+    {
         "title": "Jesus Revolution",
         "imdb_id": "tt10098448",
         "poster_url": null
@@ -12,6 +17,11 @@
     {
         "title": "The Kid With A Bike",
         "imdb_id": "tt1827512",
+        "poster_url": null
+    },
+    {
+        "title": "Film, The Living Record of Our Memory",
+        "imdb_id": "tt15439196",
         "poster_url": null
     },
     {
