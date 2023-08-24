@@ -1,5 +1,25 @@
 [
     {
+        "title": "Hedwig and the Angry Inch",
+        "imdb_id": "tt0248845",
+        "poster_url": null
+    },
+    {
+        "title": "Carmen",
+        "imdb_id": "tt6875952",
+        "poster_url": null
+    },
+    {
+        "title": "Top Secret!",
+        "imdb_id": "tt0088286",
+        "poster_url": null
+    },
+    {
+        "title": "Bait",
+        "imdb_id": "tt9652782",
+        "poster_url": null
+    },
+    {
         "title": "Zom 100: Bucket List of the Dead",
         "imdb_id": "tt20672534",
         "poster_url": null
@@ -12,6 +32,11 @@
     {
         "title": "The Remains of the Day",
         "imdb_id": "tt0107943",
+        "poster_url": null
+    },
+    {
+        "title": "Every Body",
+        "imdb_id": "tt27074938",
         "poster_url": null
     },
     {
