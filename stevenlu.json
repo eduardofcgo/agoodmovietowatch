@@ -1,5 +1,15 @@
 [
     {
+        "title": "Happy Ending",
+        "imdb_id": "tt21087084",
+        "poster_url": null
+    },
+    {
+        "title": "Friday Night Plan",
+        "imdb_id": "tt28568397",
+        "poster_url": null
+    },
+    {
         "title": "A Day and a Half",
         "imdb_id": "tt20414642",
         "poster_url": null
@@ -7,6 +17,26 @@
     {
         "title": "Jacir",
         "imdb_id": "tt12270146",
+        "poster_url": null
+    },
+    {
+        "title": "Puppy Love",
+        "imdb_id": "tt28182736",
+        "poster_url": null
+    },
+    {
+        "title": "Sick of Myself",
+        "imdb_id": "tt18816518",
+        "poster_url": null
+    },
+    {
+        "title": "Neeyat",
+        "imdb_id": "tt21908676",
+        "poster_url": null
+    },
+    {
+        "title": "Tour de Pharmacy",
+        "imdb_id": "tt5886510",
         "poster_url": null
     },
     {
