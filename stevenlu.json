@@ -1,5 +1,25 @@
 [
     {
+        "title": "The Dead Zone",
+        "imdb_id": "tt0085407",
+        "poster_url": null
+    },
+    {
+        "title": "Kelce",
+        "imdb_id": "tt28656365",
+        "poster_url": null
+    },
+    {
+        "title": "Freestyle",
+        "imdb_id": "tt28366647",
+        "poster_url": null
+    },
+    {
+        "title": "Kedi",
+        "imdb_id": "tt4420704",
+        "poster_url": null
+    },
+    {
         "title": "The Beasts",
         "imdb_id": "tt15006566",
         "poster_url": null
@@ -15,8 +35,18 @@
         "poster_url": null
     },
     {
+        "title": "A Short Film About Killing",
+        "imdb_id": "tt0095468",
+        "poster_url": null
+    },
+    {
         "title": "Spellbound",
         "imdb_id": "tt0334405",
+        "poster_url": null
+    },
+    {
+        "title": "Inside",
+        "imdb_id": "tt14781036",
         "poster_url": null
     },
     {
