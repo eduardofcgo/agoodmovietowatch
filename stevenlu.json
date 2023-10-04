@@ -1,5 +1,30 @@
 [
     {
+        "title": "The Legend & Butterfly",
+        "imdb_id": "tt21192216",
+        "poster_url": null
+    },
+    {
+        "title": "She\u2019s Gotta Have It",
+        "imdb_id": "tt0091939",
+        "poster_url": null
+    },
+    {
+        "title": "Gosford Park",
+        "imdb_id": "reference",
+        "poster_url": null
+    },
+    {
+        "title": "The Equalizer 3",
+        "imdb_id": "tt17024450",
+        "poster_url": null
+    },
+    {
+        "title": "Ustaad",
+        "imdb_id": "tt27116302",
+        "poster_url": null
+    },
+    {
         "title": "Mishima: A Life in Four Chapters",
         "imdb_id": "tt0089603",
         "poster_url": null
@@ -12,6 +37,11 @@
     {
         "title": "Appendage",
         "imdb_id": "tt17202164",
+        "poster_url": null
+    },
+    {
+        "title": "Victoria\u2019s Secret: The Tour \u201923",
+        "imdb_id": "tt29119112",
         "poster_url": null
     },
     {
