@@ -1,5 +1,10 @@
 [
     {
+        "title": "Paris Je T\u2019aime",
+        "imdb_id": "tt0401711",
+        "poster_url": null
+    },
+    {
         "title": "Quiz",
         "imdb_id": "tt10228230",
         "poster_url": null
@@ -17,6 +22,31 @@
     {
         "title": "Borom Taxi",
         "imdb_id": "tt14133258",
+        "poster_url": null
+    },
+    {
+        "title": "A Deadly Invitation",
+        "imdb_id": "tt13022120",
+        "poster_url": null
+    },
+    {
+        "title": "Ballerina",
+        "imdb_id": "tt26350277",
+        "poster_url": null
+    },
+    {
+        "title": "Totally Killer",
+        "imdb_id": "tt11426232",
+        "poster_url": null
+    },
+    {
+        "title": "The Tinder Swindler",
+        "imdb_id": "tt14992922",
+        "poster_url": null
+    },
+    {
+        "title": "The Deepest Breath",
+        "imdb_id": "tt24132732",
         "poster_url": null
     },
     {
