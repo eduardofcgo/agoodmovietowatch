@@ -1,7 +1,27 @@
 [
     {
+        "title": "A Haunting in Venice",
+        "imdb_id": "tt22687790",
+        "poster_url": null
+    },
+    {
+        "title": "ONEFOUR: Against All Odds",
+        "imdb_id": "tt28703558",
+        "poster_url": null
+    },
+    {
         "title": "Out of Sight",
         "imdb_id": "tt0120780",
+        "poster_url": null
+    },
+    {
+        "title": "The Devil on Trial",
+        "imdb_id": "tt28810493",
+        "poster_url": null
+    },
+    {
+        "title": "Another Body",
+        "imdb_id": "tt22464734",
         "poster_url": null
     },
     {
@@ -12,6 +32,11 @@
     {
         "title": "A Thousand Days",
         "imdb_id": "tt23136186",
+        "poster_url": null
+    },
+    {
+        "title": "Phenomena",
+        "imdb_id": "tt18315204",
         "poster_url": null
     },
     {
