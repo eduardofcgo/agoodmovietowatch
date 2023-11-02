@@ -1,5 +1,15 @@
 [
     {
+        "title": "The Unknown Country",
+        "imdb_id": "tt12783826",
+        "poster_url": null
+    },
+    {
+        "title": "Haunted Mansion",
+        "imdb_id": "tt1695843",
+        "poster_url": null
+    },
+    {
         "title": "A Haunting in Venice",
         "imdb_id": "tt22687790",
         "poster_url": null
@@ -42,6 +52,11 @@
     {
         "title": "The Last Duel",
         "imdb_id": "tt4244994",
+        "poster_url": null
+    },
+    {
+        "title": "Mutt",
+        "imdb_id": "tt22777288",
         "poster_url": null
     },
     {
