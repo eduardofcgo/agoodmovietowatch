@@ -1,5 +1,10 @@
 [
     {
+        "title": "Nyad",
+        "imdb_id": "tt5302918",
+        "poster_url": null
+    },
+    {
         "title": "Nuovo Olimpo",
         "imdb_id": "tt18394610",
         "poster_url": null
@@ -7,6 +12,11 @@
     {
         "title": "Our Children",
         "imdb_id": "tt1660302",
+        "poster_url": null
+    },
+    {
+        "title": "It Ain\u2019t Over",
+        "imdb_id": "tt13840536",
         "poster_url": null
     },
     {
@@ -222,6 +232,11 @@
     {
         "title": "Bringing Out the Dead",
         "imdb_id": "tt0163988",
+        "poster_url": null
+    },
+    {
+        "title": "Fingernails",
+        "imdb_id": "tt13968674",
         "poster_url": null
     },
     {
