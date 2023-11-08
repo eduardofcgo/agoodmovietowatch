@@ -1,7 +1,27 @@
 [
     {
+        "title": "After Hours",
+        "imdb_id": "tt0088680",
+        "poster_url": null
+    },
+    {
+        "title": "Sheikh Jackson",
+        "imdb_id": "tt6953076",
+        "poster_url": null
+    },
+    {
+        "title": "Piaffe",
+        "imdb_id": "tt21226876",
+        "poster_url": null
+    },
+    {
         "title": "Finders Keepers",
         "imdb_id": "tt3462002",
+        "poster_url": null
+    },
+    {
+        "title": "Chicago",
+        "imdb_id": "tt0299658",
         "poster_url": null
     },
     {
@@ -17,6 +37,11 @@
     {
         "title": "Sly",
         "imdb_id": "tt28254460",
+        "poster_url": null
+    },
+    {
+        "title": "Locked In",
+        "imdb_id": "tt24870072",
         "poster_url": null
     },
     {
