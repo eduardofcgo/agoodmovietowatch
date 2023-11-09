@@ -1,5 +1,15 @@
 [
     {
+        "title": "Ready Player One",
+        "imdb_id": "tt1677720",
+        "poster_url": null
+    },
+    {
+        "title": "Nymphomaniac: Vol. I",
+        "imdb_id": "tt1937390",
+        "poster_url": null
+    },
+    {
         "title": "After Hours",
         "imdb_id": "tt0088680",
         "poster_url": null
@@ -7,6 +17,26 @@
     {
         "title": "Sheikh Jackson",
         "imdb_id": "tt6953076",
+        "poster_url": null
+    },
+    {
+        "title": "Knuckle Girl",
+        "imdb_id": "tt29253563",
+        "poster_url": null
+    },
+    {
+        "title": "Hurricane Season",
+        "imdb_id": "tt28657882",
+        "poster_url": null
+    },
+    {
+        "title": "Squaring the Circle (The Story of Hipgnosis)",
+        "imdb_id": "tt10850264",
+        "poster_url": null
+    },
+    {
+        "title": "Higuita: The Way of the Scorpion",
+        "imdb_id": "tt29424591",
         "poster_url": null
     },
     {
