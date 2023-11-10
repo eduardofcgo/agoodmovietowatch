@@ -1,12 +1,42 @@
 [
     {
-        "title": "Ready Player One",
-        "imdb_id": "tt1677720",
+        "title": "La Ceremonie",
+        "imdb_id": "tt0112769",
+        "poster_url": null
+    },
+    {
+        "title": "The Improv: 60 and Still Standing",
+        "imdb_id": "tt29692589",
+        "poster_url": null
+    },
+    {
+        "title": "Walk Hard: The Dewey Cox Story",
+        "imdb_id": "tt0841046",
+        "poster_url": null
+    },
+    {
+        "title": "Foe",
+        "imdb_id": "tt8258502",
+        "poster_url": null
+    },
+    {
+        "title": "Irugapatru",
+        "imdb_id": "tt16103606",
+        "poster_url": null
+    },
+    {
+        "title": "Maaveeran",
+        "imdb_id": "tt22543326",
         "poster_url": null
     },
     {
         "title": "Nymphomaniac: Vol. I",
         "imdb_id": "tt1937390",
+        "poster_url": null
+    },
+    {
+        "title": "Cyberbunker: The Criminal Underworld",
+        "imdb_id": "tt29472617",
         "poster_url": null
     },
     {
@@ -145,6 +175,11 @@
         "poster_url": null
     },
     {
+        "title": "The Killer",
+        "imdb_id": "tt1136617",
+        "poster_url": null
+    },
+    {
         "title": "A Haunting in Venice",
         "imdb_id": "tt22687790",
         "poster_url": null
@@ -272,6 +307,11 @@
     {
         "title": "Slotherhouse",
         "imdb_id": "tt15422224",
+        "poster_url": null
+    },
+    {
+        "title": "The Royal Hotel",
+        "imdb_id": "tt18363072",
         "poster_url": null
     },
     {
