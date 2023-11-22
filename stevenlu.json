@@ -1,5 +1,35 @@
 [
     {
+        "title": "Scrapper",
+        "imdb_id": "tt8649252",
+        "poster_url": null
+    },
+    {
+        "title": "The Forest for the Trees",
+        "imdb_id": "tt0386862",
+        "poster_url": null
+    },
+    {
+        "title": "Ghost Dog: The Way of the Samurai",
+        "imdb_id": "tt0165798",
+        "poster_url": null
+    },
+    {
+        "title": "Nope",
+        "imdb_id": "tt10954984",
+        "poster_url": null
+    },
+    {
+        "title": "Babylon",
+        "imdb_id": "tt10640346",
+        "poster_url": null
+    },
+    {
+        "title": "Katrina Babies",
+        "imdb_id": "tt15306876",
+        "poster_url": null
+    },
+    {
         "title": "Richard III",
         "imdb_id": "tt0114279",
         "poster_url": null
@@ -12,6 +42,11 @@
     {
         "title": "Rustin",
         "imdb_id": "tt14160834",
+        "poster_url": null
+    },
+    {
+        "title": "Sukhee",
+        "imdb_id": "tt18266472",
         "poster_url": null
     },
     {
