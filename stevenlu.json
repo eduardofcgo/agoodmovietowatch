@@ -1,5 +1,15 @@
 [
     {
+        "title": "The Lesson",
+        "imdb_id": "tt20358284",
+        "poster_url": null
+    },
+    {
+        "title": "Wild Style",
+        "imdb_id": "tt0084904",
+        "poster_url": null
+    },
+    {
         "title": "Science Fair",
         "imdb_id": "tt7153434",
         "poster_url": null
@@ -12,6 +22,16 @@
     {
         "title": "Frybread Face and Me",
         "imdb_id": "tt13365482",
+        "poster_url": null
+    },
+    {
+        "title": "The Rescue",
+        "imdb_id": "tt9098872",
+        "poster_url": null
+    },
+    {
+        "title": "Howard",
+        "imdb_id": "tt7682430",
         "poster_url": null
     },
     {
