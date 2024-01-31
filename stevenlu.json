@@ -1,5 +1,25 @@
 [
     {
+        "title": "It Is Night in America",
+        "imdb_id": "tt21228958",
+        "poster_url": null
+    },
+    {
+        "title": "The Reason I Jump",
+        "imdb_id": "tt9098928",
+        "poster_url": null
+    },
+    {
+        "title": "The Greatest Night in Pop",
+        "imdb_id": "tt30796448",
+        "poster_url": null
+    },
+    {
+        "title": "Bruiser",
+        "imdb_id": "tt21833464",
+        "poster_url": null
+    },
+    {
         "title": "In the Morning of La Petite Mort",
         "imdb_id": "tt15435040",
         "poster_url": null
@@ -7,6 +27,11 @@
     {
         "title": "Prime",
         "imdb_id": "tt28356390",
+        "poster_url": null
+    },
+    {
+        "title": "Stray",
+        "imdb_id": "tt11905922",
         "poster_url": null
     },
     {
