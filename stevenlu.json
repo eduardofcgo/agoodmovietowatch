@@ -1,5 +1,25 @@
 [
     {
+        "title": "Bosco",
+        "imdb_id": "tt17633634",
+        "poster_url": null
+    },
+    {
+        "title": "Drugstore Cowboy",
+        "imdb_id": "tt0097240",
+        "poster_url": null
+    },
+    {
+        "title": "Farewell My Concubine",
+        "imdb_id": "tt0106332",
+        "poster_url": null
+    },
+    {
+        "title": "American Fiction",
+        "imdb_id": "tt23561236",
+        "poster_url": null
+    },
+    {
         "title": "The Tiger\u2019s Apprentice",
         "imdb_id": "tt5834410",
         "poster_url": null
@@ -12,6 +32,16 @@
     {
         "title": "Primbon",
         "imdb_id": "tt28080971",
+        "poster_url": null
+    },
+    {
+        "title": "Dream Scenario",
+        "imdb_id": "tt21942866",
+        "poster_url": null
+    },
+    {
+        "title": "The Disappearance of Shere Hite",
+        "imdb_id": "tt24078380",
         "poster_url": null
     },
     {
