@@ -1,5 +1,10 @@
 [
     {
+        "title": "A Soweto Love Story",
+        "imdb_id": "tt28943323",
+        "poster_url": null
+    },
+    {
         "title": "Lover, Stalker, Killer",
         "imdb_id": "tt30852970",
         "poster_url": null
@@ -15,6 +20,11 @@
         "poster_url": null
     },
     {
+        "title": "The Iron Claw",
+        "imdb_id": "tt21064584",
+        "poster_url": null
+    },
+    {
         "title": "Which Brings Me to You",
         "imdb_id": "tt3468380",
         "poster_url": null
@@ -22,6 +32,21 @@
     {
         "title": "Ashes",
         "imdb_id": "tt21308718",
+        "poster_url": null
+    },
+    {
+        "title": "Players",
+        "imdb_id": "tt14833464",
+        "poster_url": null
+    },
+    {
+        "title": "I Have Electric Dreams",
+        "imdb_id": "tt21227238",
+        "poster_url": null
+    },
+    {
+        "title": "We Met in Virtual Reality",
+        "imdb_id": "tt16378482",
         "poster_url": null
     },
     {
