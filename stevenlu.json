@@ -1,5 +1,15 @@
 [
     {
+        "title": "Monster",
+        "imdb_id": "tt23736044",
+        "poster_url": null
+    },
+    {
+        "title": "Women on the Verge of a Nervous Breakdown",
+        "imdb_id": "tt0095675",
+        "poster_url": null
+    },
+    {
         "title": "Sacred Soil: The Piney Woods School Story",
         "imdb_id": "tt31113004",
         "poster_url": null
@@ -7,6 +17,21 @@
     {
         "title": "Palm Trees and Power Lines",
         "imdb_id": "tt15257116",
+        "poster_url": null
+    },
+    {
+        "title": "Attica",
+        "imdb_id": "tt12482898",
+        "poster_url": null
+    },
+    {
+        "title": "The Abyss",
+        "imdb_id": "tt22016156",
+        "poster_url": null
+    },
+    {
+        "title": "The Greatest Love Story Never Told",
+        "imdb_id": "tt31314185",
         "poster_url": null
     },
     {
