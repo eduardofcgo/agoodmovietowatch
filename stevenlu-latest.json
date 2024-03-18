@@ -1,5 +1,10 @@
 [
     {
+        "title": "Art of Love",
+        "imdb_id": "tt28355490",
+        "poster_url": null
+    },
+    {
         "title": "Shin Ultraman",
         "imdb_id": "tt10737918",
         "poster_url": null
@@ -42,11 +47,6 @@
     {
         "title": "Lost Illusions",
         "imdb_id": "tt10505316",
-        "poster_url": null
-    },
-    {
-        "title": "The Tragedy of Man",
-        "imdb_id": "tt0176694",
         "poster_url": null
     }
 ]
