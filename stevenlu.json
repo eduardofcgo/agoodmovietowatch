@@ -1,5 +1,10 @@
 [
     {
+        "title": "The Greatest Hits",
+        "imdb_id": "tt2015349",
+        "poster_url": null
+    },
+    {
         "title": "The Official Story",
         "imdb_id": "tt0089276",
         "poster_url": null
@@ -7,6 +12,16 @@
     {
         "title": "What Jennifer Did",
         "imdb_id": "tt31747163",
+        "poster_url": null
+    },
+    {
+        "title": "Amar Singh Chamkila",
+        "imdb_id": "tt26658272",
+        "poster_url": null
+    },
+    {
+        "title": "LaRoy, Texas",
+        "imdb_id": "tt20102596",
         "poster_url": null
     },
     {
