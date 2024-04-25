@@ -1,5 +1,20 @@
 [
     {
+        "title": "Betty Blue",
+        "imdb_id": "tt0090563",
+        "poster_url": null
+    },
+    {
+        "title": "How to Have Sex",
+        "imdb_id": "tt22890246",
+        "poster_url": null
+    },
+    {
+        "title": "Spermworld",
+        "imdb_id": "tt30835128",
+        "poster_url": null
+    },
+    {
         "title": "Pathfinder",
         "imdb_id": "tt0093668",
         "poster_url": null
@@ -7,6 +22,11 @@
     {
         "title": "The Beautiful Game",
         "imdb_id": "tt5113010",
+        "poster_url": null
+    },
+    {
+        "title": "Parting Glances",
+        "imdb_id": "tt0091725",
         "poster_url": null
     },
     {
