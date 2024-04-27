@@ -1,5 +1,10 @@
 [
     {
+        "title": "City Hunter",
+        "imdb_id": "tt24478470",
+        "poster_url": null
+    },
+    {
         "title": "Problemista",
         "imdb_id": "tt15078804",
         "poster_url": null
@@ -12,6 +17,11 @@
     {
         "title": "The Glass Castle",
         "imdb_id": "tt2378507",
+        "poster_url": null
+    },
+    {
+        "title": "Comrades, Almost a Love Story",
+        "imdb_id": "tt0117905",
         "poster_url": null
     },
     {
