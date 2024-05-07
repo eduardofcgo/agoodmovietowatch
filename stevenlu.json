@@ -1,5 +1,20 @@
 [
     {
+        "title": "Unfrosted",
+        "imdb_id": "tt14914430",
+        "poster_url": null
+    },
+    {
+        "title": "Turtles All the Way Down",
+        "imdb_id": "tt7737224",
+        "poster_url": null
+    },
+    {
+        "title": "Do Not Expect Too Much from the End of the World",
+        "imdb_id": "tt18162096",
+        "poster_url": null
+    },
+    {
         "title": "The Tearsmith",
         "imdb_id": "tt29114029",
         "poster_url": null
@@ -10,8 +25,23 @@
         "poster_url": null
     },
     {
+        "title": "Prom Dates",
+        "imdb_id": "tt29919979",
+        "poster_url": null
+    },
+    {
+        "title": "The Contestant",
+        "imdb_id": "tt13940818",
+        "poster_url": null
+    },
+    {
         "title": "Idiots and Angels",
         "imdb_id": "tt1013607",
+        "poster_url": null
+    },
+    {
+        "title": "Lust, Caution",
+        "imdb_id": "tt0808357",
         "poster_url": null
     },
     {
