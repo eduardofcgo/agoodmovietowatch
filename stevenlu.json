@@ -1,5 +1,20 @@
 [
     {
+        "title": "Terrorizers",
+        "imdb_id": "tt0091355",
+        "poster_url": null
+    },
+    {
+        "title": "Shadows in Paradise",
+        "imdb_id": "tt0092149",
+        "poster_url": null
+    },
+    {
+        "title": "The Sacrifice",
+        "imdb_id": "tt0091670",
+        "poster_url": null
+    },
+    {
         "title": "You Cannot Kill David Arquette",
         "imdb_id": "tt11454066",
         "poster_url": null
@@ -12,6 +27,11 @@
     {
         "title": "Atlas",
         "imdb_id": "tt14856980",
+        "poster_url": null
+    },
+    {
+        "title": "Civil War",
+        "imdb_id": "tt17279496",
         "poster_url": null
     },
     {
