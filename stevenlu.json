@@ -1,7 +1,27 @@
 [
     {
+        "title": "Bionic",
+        "imdb_id": "tt16427902",
+        "poster_url": null
+    },
+    {
+        "title": "Colors of Evil: Red",
+        "imdb_id": "tt27578157",
+        "poster_url": null
+    },
+    {
+        "title": "Rain",
+        "imdb_id": "tt9653184",
+        "poster_url": null
+    },
+    {
         "title": "As Tears Go By",
         "imdb_id": "tt0096461",
+        "poster_url": null
+    },
+    {
+        "title": "North Sea Texas",
+        "imdb_id": "tt1625150",
         "poster_url": null
     },
     {
@@ -12,6 +32,11 @@
     {
         "title": "The Price of Nonna\u2019s Inheritance",
         "imdb_id": "tt30494321",
+        "poster_url": null
+    },
+    {
+        "title": "For the Love of Spock",
+        "imdb_id": "tt4572820",
         "poster_url": null
     },
     {
