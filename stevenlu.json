@@ -1,5 +1,10 @@
 [
     {
+        "title": "The Road Home",
+        "imdb_id": "tt0235060",
+        "poster_url": null
+    },
+    {
         "title": "Soulmate",
         "imdb_id": "tt13086130",
         "poster_url": null
@@ -7,6 +12,16 @@
     {
         "title": "In the Family",
         "imdb_id": "tt1845804",
+        "poster_url": null
+    },
+    {
+        "title": "Breakin\u2019 on the One",
+        "imdb_id": "tt32743824",
+        "poster_url": null
+    },
+    {
+        "title": "I Am: Celine Dion",
+        "imdb_id": "tt28620587",
         "poster_url": null
     },
     {
