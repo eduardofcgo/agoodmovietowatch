@@ -1,5 +1,20 @@
 [
     {
+        "title": "The Tiger",
+        "imdb_id": "tt5066556",
+        "poster_url": null
+    },
+    {
+        "title": "Inheritance",
+        "imdb_id": "tt32245043",
+        "poster_url": null
+    },
+    {
+        "title": "The Settlers",
+        "imdb_id": "tt10370812",
+        "poster_url": null
+    },
+    {
         "title": "The Stranger",
         "imdb_id": "tt0101279",
         "poster_url": null
@@ -12,6 +27,11 @@
     {
         "title": "Outstanding: A Comedy Revolution",
         "imdb_id": "tt20918352",
+        "poster_url": null
+    },
+    {
+        "title": "Riddle of Fire",
+        "imdb_id": "tt7575046",
         "poster_url": null
     },
     {
