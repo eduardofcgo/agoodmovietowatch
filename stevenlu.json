@@ -1,5 +1,25 @@
 [
     {
+        "title": "Police Story",
+        "imdb_id": "tt0089374",
+        "poster_url": null
+    },
+    {
+        "title": "The Maid",
+        "imdb_id": "tt1187044",
+        "poster_url": null
+    },
+    {
+        "title": "Femme",
+        "imdb_id": "tt20114686",
+        "poster_url": null
+    },
+    {
+        "title": "The Commandant\u2019s Shadow",
+        "imdb_id": "tt32020404",
+        "poster_url": null
+    },
+    {
         "title": "Dogfight",
         "imdb_id": "tt0101748",
         "poster_url": null
@@ -4172,6 +4192,11 @@
     {
         "title": "A Short Film About Love",
         "imdb_id": "tt0095467",
+        "poster_url": null
+    },
+    {
+        "title": "When Frank Met Carlitos",
+        "imdb_id": "tt28599808",
         "poster_url": null
     },
     {
