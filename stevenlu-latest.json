@@ -5,6 +5,11 @@
         "poster_url": null
     },
     {
+        "title": "Queen of Katwe",
+        "imdb_id": "tt4341582",
+        "poster_url": null
+    },
+    {
         "title": "The Maid",
         "imdb_id": "tt1187044",
         "poster_url": null
@@ -42,11 +47,6 @@
     {
         "title": "Closet Monster",
         "imdb_id": "tt3638396",
-        "poster_url": null
-    },
-    {
-        "title": "My Spy the Eternal City",
-        "imdb_id": "tt12930350",
         "poster_url": null
     }
 ]
