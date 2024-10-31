@@ -5,6 +5,11 @@
         "poster_url": null
     },
     {
+        "title": "The Substance",
+        "imdb_id": "tt17526714",
+        "poster_url": null
+    },
+    {
         "title": "The Remarkable Life of Ibelin",
         "imdb_id": "tt19811010",
         "poster_url": null
@@ -42,11 +47,6 @@
     {
         "title": "Brotherhood of the Wolf",
         "imdb_id": "tt0237534",
-        "poster_url": null
-    },
-    {
-        "title": "Electric Shadows",
-        "imdb_id": "tt0424273",
         "poster_url": null
     }
 ]
