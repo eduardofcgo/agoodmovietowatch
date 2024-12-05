@@ -9,11 +9,11 @@ cursor = conn.cursor()
 
 cursor.execute(
     """
-  select title, imdb
-  from movie
-  where imdb is not null
-  order by creation_date desc
-"""
+    select title, imdb
+    from movie
+    where imdb is not null
+    order by creation_date desc
+    """
 )
 movies = cursor.fetchall()
 
@@ -33,7 +33,6 @@ for title, imdb_url in movies:
     stevenlu_movie = {
         "title": title_without_year,
         "imdb_id": imdb_id,
-        "poster_url": None,
     }
 
     stevenlu_movies.append(stevenlu_movie)
@@ -46,7 +45,7 @@ with open("stevenlu.json", "w") as stevenlu:
 
 
 with open("stevenlu-latest.json", "w") as stevenlu_latest:
-    stevenlu_movies_latest = stevenlu_movies[:10]
+    stevenlu_movies_latest = stevenlu_movies[:50]
     stevenlu_json = json.dumps(stevenlu_movies_latest, indent=4)
 
     stevenlu_latest.write(stevenlu_json)

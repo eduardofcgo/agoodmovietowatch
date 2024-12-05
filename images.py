@@ -22,17 +22,13 @@ cursor.executescript(
 
 cursor.execute(
     """
-    select
-        thumbnail
-    from movie
+    select thumbnail from movie
     left join image on thumbnail = url
     where url is null
 
     union
 
-    select
-        detailed_image
-    from movie
+    select detailed_image from movie
     left join image on detailed_image = url
     where url is null
 """
