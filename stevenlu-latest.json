@@ -1,7 +1,15 @@
 [
     {
+        "title": "Soundtrack to a Coup d\u2019\u00c9tat",
+        "imdb_id": "tt14452174"
+    },
+    {
         "title": "Prot\u00e9g\u00e9",
         "imdb_id": "tt0841150"
+    },
+    {
+        "title": "High Sierra",
+        "imdb_id": "tt0033717"
     },
     {
         "title": "The Misfits",
@@ -190,13 +198,5 @@
     {
         "title": "Guru",
         "imdb_id": "tt0499375"
-    },
-    {
-        "title": "Juror #2",
-        "imdb_id": "tt27403986"
-    },
-    {
-        "title": "Apollo 13: Survival",
-        "imdb_id": "tt31852716"
     }
 ]
