@@ -8,6 +8,10 @@
         "imdb_id": "tt0162023"
     },
     {
+        "title": "Nosferatu",
+        "imdb_id": "tt5040012"
+    },
+    {
         "title": "King Creole",
         "imdb_id": "tt0051818"
     },
@@ -194,9 +198,5 @@
     {
         "title": "Ordinary People",
         "imdb_id": "tt0081283"
-    },
-    {
-        "title": "Anora",
-        "imdb_id": "tt28607951"
     }
 ]
