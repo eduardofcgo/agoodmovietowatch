@@ -1,5 +1,13 @@
 [
     {
+        "title": "The Innocents",
+        "imdb_id": "tt4370784"
+    },
+    {
+        "title": "All We Imagine as Light",
+        "imdb_id": "tt32086077"
+    },
+    {
         "title": "The Count of Monte Cristo",
         "imdb_id": "tt26446278"
     },
@@ -198,6 +206,10 @@
     {
         "title": "Bird",
         "imdb_id": "tt28277817"
+    },
+    {
+        "title": "Charlie\u2019s Country",
+        "imdb_id": "tt3244512"
     },
     {
         "title": "Violent Cop",
