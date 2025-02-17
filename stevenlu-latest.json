@@ -1,5 +1,9 @@
 [
     {
+        "title": "Nickel Boys",
+        "imdb_id": "tt23055660"
+    },
+    {
         "title": "Guys and Dolls",
         "imdb_id": "tt0048140"
     },
@@ -194,9 +198,5 @@
     {
         "title": "Small Things Like These",
         "imdb_id": "tt27196021"
-    },
-    {
-        "title": "Lore",
-        "imdb_id": "tt1996310"
     }
 ]
