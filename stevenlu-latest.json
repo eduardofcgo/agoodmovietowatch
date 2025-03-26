@@ -4,6 +4,18 @@
         "imdb_id": "tt0423176"
     },
     {
+        "title": "Pickup on South Street",
+        "imdb_id": "tt0046187"
+    },
+    {
+        "title": "Barton Fink",
+        "imdb_id": "tt0101410"
+    },
+    {
+        "title": "The Conversation",
+        "imdb_id": "tt0071360"
+    },
+    {
         "title": "Mysteries of Lisbon",
         "imdb_id": "tt20259142"
     },
@@ -186,17 +198,5 @@
     {
         "title": "Jeanne Dielman, 23, quai du Commerce, 1080 Bruxelles",
         "imdb_id": "tt0073198"
-    },
-    {
-        "title": "The Last Picture Show",
-        "imdb_id": "tt0067328"
-    },
-    {
-        "title": "Peeping Tom",
-        "imdb_id": "tt0054167"
-    },
-    {
-        "title": "Tuvalu",
-        "imdb_id": "tt0162023"
     }
 ]
